@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pytest = "*"
+requests = "*"
+assertpy = "*"
+cerberus = "*"
+lxml = "*"
+pytest-reportportal = "*"
+jsonpath-ng = "*"
+loguru = "*"
+pytest-xdist = {extras = ["psutil"], version = "*"}
+install = "*"
+allure-pytest = "*"
+pip = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
